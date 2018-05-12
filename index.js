@@ -21,13 +21,13 @@ function johnLennonFacts() {
         "He hated the sound of his own voice"
       ];
 
-  var newArray = [];
-  var i = 0;
-  while (i < facts.length) {
-    newArray.push(facts[i] + "!!!");
-    i++;
-  }
-  return newArray;
+    var newFacts = [];
+    var i = 0;
+    while (i < facts.length) {
+        newFacts.push(facts[i] +"!!!");
+        i++;
+    }
+    return newFacts;
 }
 
 function iLoveTheBeatles(number) {
